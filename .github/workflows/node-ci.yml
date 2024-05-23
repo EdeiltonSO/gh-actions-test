@@ -1,4 +1,4 @@
-name: CI/CD
+name: Teste de CI/CD no GitHub Actions
 
 on:
   push:
@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
+    - name: Checkout Repository
       uses: actions/checkout@v4
 
     - name: Deploy
